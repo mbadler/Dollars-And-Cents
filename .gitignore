@@ -50,3 +50,5 @@ CSharp/obj/x86/Debug/DollarsAndCents.csproj.FileListAbsolute.txt
 *.pdb
 *.cache
 CSharp/bin/Debug/DollarsAndCents.vshost.exe.manifest
+CSharp/DollarsAndCents.suo
+*.suo

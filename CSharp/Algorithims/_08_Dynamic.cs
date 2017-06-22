@@ -17,11 +17,20 @@ namespace DollarsAndCents.Algorithims
             var table = new long[this.Cents+1];
             table[0] = 1;
             for (int i = 0; i < 4; i++)
-                for (int j = Coin[i]; j <= this.Cents; j++)
+
+            //for (int j = Coin[i]; j <= this.Cents; j++)
+            //{
+            //    this.Cycles++;
+            //    table[j] += table[j - Coin[i]];
+            //}
+            {
+                var cval = Coin[i];
+                for (int j = cval; j <= this.Cents; j++)
                 {
                     this.Cycles++;
-                    table[j] += table[j - Coin[i]];
+                    table[j] += table[j - cval];
                 }
+            }
             this.Results = table[this.Cents];
 
         }
