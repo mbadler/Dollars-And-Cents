@@ -42,5 +42,5 @@ The following Algorithms are included
 |_06_Parallel|Runs the quarters loop in parallel|
 |_07_Tasks|Resolves the quarters loop using queued tasks|
 |_08_Dynamic|Uses a "Dynamic" recursive approach by ovelaying an array with values|
-|_08_Polynomial|Uses a polynomial regression curve to predict the value (with a slight loose of accuracy)
+|_09_Polynomial|Uses a polynomial regression curve to predict the value (with a slight loose of accuracy)
 
