@@ -16,6 +16,9 @@ namespace DollarsAndCents
         static void Main(string[] args)
         {
 
+
+
+
             Algorithims.Add(new _01_Base());
             Algorithims.Add(new _02_EarlyExitCents());
             Algorithims.Add(new _03_TightLoops());
@@ -23,8 +26,9 @@ namespace DollarsAndCents
             Algorithims.Add(new _05_NoNickles());
             Algorithims.Add(new _06_Parallel());
             Algorithims.Add(new _07_Tasks());
+            Algorithims.Add(new _08_Dynamic());
            
-            Algorithims.Add(new _08_Polynomial());
+            Algorithims.Add(new _09_Polynomial());
 
             
              
@@ -49,7 +53,13 @@ namespace DollarsAndCents
             
         }
 
-       
+
+
+         
+            
+         
+
+
 
 
         private static void DoAmountForAll()

@@ -48,7 +48,8 @@
     <Compile Include="Algorithims\_03_Tight_Loops.cs" />
     <Compile Include="Algorithims\_06_Parallel.cs" />
     <Compile Include="Algorithims\_05_NoNickles.cs" />
-    <Compile Include="Algorithims\_08_Polynomial.cs" />
+    <Compile Include="Algorithims\_08_Dynamic.cs" />
+    <Compile Include="Algorithims\_09_Polynomial.cs" />
     <Compile Include="Algorithims\_04_NoCents.cs" />
     <Compile Include="Algorithims\_02_EarlyExitCents.cs" />
     <Compile Include="Algorithims\_01_Base.cs" />

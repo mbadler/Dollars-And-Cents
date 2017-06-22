@@ -6,7 +6,7 @@ using System.Threading;
 
 namespace DollarsAndCents.Algorithims
 {
-    public class _08_Polynomial : AlgoBase
+    public class _09_Polynomial : AlgoBase
     {
         protected override void Algorithim(CancellationToken cToken)
         {
