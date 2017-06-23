@@ -27,8 +27,8 @@ namespace DollarsAndCents
             Algorithims.Add(new _06_Parallel());
             Algorithims.Add(new _07_Tasks());
             Algorithims.Add(new _08_Dynamic());
-           
-            Algorithims.Add(new _09_Polynomial());
+            Algorithims.Add(new _09_TightDynamic());
+            Algorithims.Add(new _10_Polynomial());
 
             
              
@@ -151,4 +151,6 @@ namespace DollarsAndCents
 
 
     }
+
+
 }
